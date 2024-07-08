@@ -9,7 +9,7 @@ const Preloader = () => {
                 <div className="preloader-thumb-wrap">
                     <div className="preloader-thumb">
                     <div className="preloader-border"></div>
-                        <Image src={loaderImg} style={{ width: "auto", height: "auto" }} alt="loader img"  />
+                        <Image src={loaderImg} style={{ width: "100%", height: "auto" }} alt="loader img"  />
                     </div>
                 </div>
             </div>
