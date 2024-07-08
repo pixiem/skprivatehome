@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@assets/img/logo/logo.svg";
+import logo from "@assets/img/logo/favicon.png";
 import MobileMenus from "./mobile-menus";
 
 const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
@@ -28,21 +28,15 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                 </button>
               </div>
             </div>
-            <div className="offcanvas__search mb-40">
-              <form onSubmit={handleSubmit}>
-                <button type="submit"><i className="flaticon-search"></i></button>
-                <input type="text" placeholder="Search here" />
-              </form>
-            </div>
+          
             <div className="mobile-menu fix mb-30 menu-counter d-lg-none mean-container">
               <div className="mean-bar">
                 <MobileMenus />
               </div>
             </div>
             <div className="offcanvas__about d-none d-lg-block mb-30">
-              <h4>About Kindedo</h4>
-              <p>With the help of teachers and environment as the third teacher, students
-                have opportunities to confidently take risks.</p>
+              <h4>SK Private Home</h4>
+              <p>SK Private Home is a Diploma in Engineering Coaching Center as known as Polytechnic Coaching Centre .We are First Polytechnic Coaching Centre in Chittagong, We Services Polytechnic Students last 7 Years & we will give more.</p>
             </div>
             <div className="offcanvas__contact mb-30">
               <h4>Contact Info</h4>
@@ -55,8 +49,8 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   </div>
                   <div className="offcanvas__contact-text">
                     <a target="_blank" rel="noreferrer"
-                      href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">12/A,
-                      Mirnada City Tower, NYC</a>
+                      href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">                    
+Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center gap-2">
@@ -64,7 +58,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                     <a href="tel:+088889797697"><i className="far fa-phone"></i></a>
                   </div>
                   <div className="offcanvas__contact-text">
-                    <a href="tel:+088889797697">088889797697</a>
+                    <a href="tel:+880 16723 47172">+880 16723 47172</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center gap-2">
@@ -72,17 +66,17 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                     <a href="mailto:support@gmail.com"><i className="fal fa-envelope"></i></a>
                   </div>
                   <div className="offcanvas__contact-text">
-                    <a href="mailto:support@gmail.com">support@mail.com</a>
+                    <a href="mailto:support@gmail.com">skprivatehome@gmail.com</a>
                   </div>
                 </li>
               </ul>
             </div>
             <div className="offcanvas__social">
               <ul>
-                <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><i className="fa-brands fa-facebook-f"></i></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/"><i className="fa-brands fa-youtube"></i></a>
-                </li>
+              <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}> <span>Page</span>
+              <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/skprivetehome?mibextid=ZbWKwL"><i className="fa-brands fa-facebook-f"></i></a></li></div>
+               <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}> <span>Group</span>
+               <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/share/icsbk4df2hjQ8PTp/?mibextid=A7sQZp"><i className="fa-brands fa-facebook-f"></i></a></li></div>
               </ul>
             </div>
           </div>
