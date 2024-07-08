@@ -1,4 +1,4 @@
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/favicon.png';
 import logoWhite from '@assets/img/logo/logo-white.svg';
 
 const footer_data = {
@@ -6,7 +6,7 @@ const footer_data = {
         id: 1,
         logo: logo,
         logoWhite: logoWhite,
-        teaser: 'In our Adult Participation programs, for most students, it is their first program in Kindedo.',
+        teaser: 'SK Private Home is a Diploma in Engineering Coaching Center as known as Polytechnic Coaching Centre .We are First Polytechnic Coaching Centre in Chittagong, We Services Polytechnic Students last 7 Years & we will give more.',
         socialTitle: 'Social',
         newsTitle: 'Join Our Newsletter',
         newsBtn: 'Subscribe now',
@@ -14,21 +14,16 @@ const footer_data = {
             {
                 id: 1,
                 icon: 'fa-brands fa-facebook-f',
-                url: 'https://www.facebook.com/',
-                name: 'Facebook',
+                url: 'https://www.facebook.com/skprivetehome?mibextid=ZbWKwL',
+                name: 'Facebook Page',
             },
             {
-                id: 2,
-                icon: 'fa-brands fa-twitter',
-                url: 'https://twitter.com/',
-                name: 'Twitter',
-            },
-            {
-                id: 3,
-                icon: 'fa-brands fa-youtube',
-                url: 'https://www.youtube.com/',
-                name: 'Youtube',
+                id: 1,
+                icon: 'fa-brands fa-facebook-f',
+                url: 'https://www.facebook.com/share/icsbk4df2hjQ8PTp/?mibextid=A7sQZp',
+                name: 'Facebook Group',
             }
+            
         ]
     },
     "quick_links": {
@@ -142,7 +137,7 @@ const footer_data = {
                 id: 1,
                 icon: 'fa-light fa-location-dot',
                 url: '#',
-                title: '14/A, Kilix Home Tower, NYC',
+                title: 'Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong',
             },
             {
                 id: 2,
@@ -153,8 +148,8 @@ const footer_data = {
             {
                 id: 3,
                 icon: 'fa-light fa-envelope',
-                url: 'mailto:support@kindedo.com',
-                title: 'Support@kindedo.com',
+                url: 'skprivatehome@gmail.com',
+                title: 'skprivatehome@gmail.com',
             }
         ]
     },

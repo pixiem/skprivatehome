@@ -12,8 +12,8 @@ const CopyrightText = ({ copyright_space, copyright_shape }) => {
         <div className="container">
           <div className="bd-footer-copyright-wrap d-flex align-items-md-center justify-content-center">
             <div className="bd-footer-copyright-text pb-20">
-              <p>Copyrighted by &copy;{new Date().getFullYear()} <a href="https://themeforest.net/user/bdevs/portfolio"
-                rel="nofollow">BDevs</a>
+              <p>Copyrighted by &copy;{new Date().getFullYear()} <a href="https://bugsbeeit.com"
+                rel="nofollow">Bugs Bee IT</a>
               </p>
             </div>
           </div>

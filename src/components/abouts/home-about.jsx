@@ -15,7 +15,7 @@ const HomeAbout = () => {
                 <div className="bd-section-title-wrapper mb-25 wow fadeInLeft" data-wow-duration="1s"
                   data-wow-delay=".3s">
                   <h2 className="bd-section-title mb-0">Know More
-                    <br />About Kindedo
+                    <br />About SK Private Home
                   </h2>
                 </div>
                 <div className="bd-faq wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
@@ -24,14 +24,15 @@ const HomeAbout = () => {
                       <h2 className="accordion-header" id="headingOne">
                         <button className="accordion-button" type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          What is the best age to start Kindergarten?
+                          What courses does SK Private Home offer?
                         </button>
                       </h2>
                       <div id="collapseOne" className="accordion-collapse collapse show"
                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Some states and countries implement mandatory early childhood education. With
-                            such rules, many preschool and kindergarten learning centers are built.</p>
+                          <p>SK Private Home offers a range of courses designed to prepare students for polytechnic entrance exams. Our courses cover subjects such as Mathematics, Physics, Chemistry, and Technical Drawing. We provide both regular and crash course options to suit different learning needs and schedules.
+
+</p>
                         </div>
                       </div>
                     </div>
@@ -39,14 +40,15 @@ const HomeAbout = () => {
                       <h2 className="accordion-header" id="headingTwo">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Which is the best preschool for your child ?
+                         How experienced are the instructors at SK Private Home?
                         </button>
                       </h2>
                       <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>Right after you book your party, you’ll receive an email confirming the date,
-                            time, and details about what’s included in the package you’ve selected result.
+                          <p>Our instructors are highly qualified and experienced in their respective fields. Many of them hold advanced degrees and have extensive teaching experience. They are dedicated to providing personalized attention to each student, ensuring they grasp the concepts and perform well in their exams.
+
+.
                           </p>
                         </div>
                       </div>
@@ -55,14 +57,13 @@ const HomeAbout = () => {
                       <h2 className="accordion-header" id="headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          What is the toution fee on first year?
+                         What kind of support and resources are available for students?
                         </button>
                       </h2>
                       <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p>There will also be some fantastic outdoor entertainment, desserts and drinks,
-                            plus tours of the School for those who want to continue the celebrations.</p>
+                          <p>SK Private Home, we provide comprehensive support and resources for our students. This includes access to a well-stocked library, online learning materials, regular mock tests, and one-on-one tutoring sessions. We also offer career counseling and guidance to help students make informed decisions about their future studies and careers.</p>
                         </div>
                       </div>
                     </div>

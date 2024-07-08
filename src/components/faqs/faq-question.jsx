@@ -20,8 +20,9 @@ const FaqQuestion = () => {
                                     <div className="bd-faq-number"><span>01</span></div>
                                     <div className="bd-faq-content-3">
                                         <h4 className="bd-faq-title">What is the best age to start Kindergarten?</h4>
-                                        <p>Some states and countries implement mandatory early childhood education. With
-                                            such rules, many preschool and kindergarten learning centers are built.</p>
+                                        <p>SK Private Home offers a range of courses designed to prepare students for polytechnic entrance exams. Our courses cover subjects such as Mathematics, Physics, Chemistry, and Technical Drawing. We provide both regular and crash course options to suit different learning needs and schedules.
+
+</p>
                                     </div>
                                 </li>
                             </ul>

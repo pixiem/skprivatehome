@@ -14,13 +14,10 @@ const HomeHero = () => {
             <div className="bd-gradient-bg"></div>
             <div className="bd-hero-social-wrapper">
                 <div className="bd-hero-social">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i>facebook</a>
+                    <a href="https://www.facebook.com/skprivetehome?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i>facebook Page</a>
                 </div>
                 <div className="bd-hero-social">
-                    <a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i>twitter</a>
-                </div>
-                <div className="bd-hero-social">
-                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-youtube"></i>youtube</a>
+                    <a href="https://www.facebook.com/share/icsbk4df2hjQ8PTp/?mibextid=A7sQZp" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i>facebook Group</a>
                 </div>
             </div>
             <div className="container">

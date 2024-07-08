@@ -24,14 +24,13 @@ const FaqPageMain = () => {
                                         <h2 className="accordion-header" id="headingOne">
                                             <button className="accordion-button" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                What is the best age to start Kindergarten?
+                                               What courses does SK Private Home offer?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" className="accordion-collapse collapse show"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                <p>Some states and countries implement mandatory early childhood education. With
-                                                    such rules, many preschool and kindergarten learning centers are built.</p>
+                                                <p>SK Private Home offers a range of courses designed to prepare students for polytechnic entrance exams. Our courses cover subjects such as Mathematics, Physics, Chemistry, and Technical Drawing. We provide both regular and crash course options to suit different learning needs and schedules.</p>
                                             </div>
                                         </div>
                                     </div>
