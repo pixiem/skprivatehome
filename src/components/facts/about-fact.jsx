@@ -4,24 +4,24 @@ import React from 'react';
 const fact_items = [
     {
         id: 1,
-        count: '14',
+        count: '7',
         title: <>years of<br/> experience</>,
         icon: 'flaticon-user-interface',
         text: '+',
     },
     {
         id: 2,
-        count: '7',
-        title: <>Students<br/> each year</>,
+        count: '2',
+        title: <>Students<br/> Total Lifetime</>,
         icon: 'flaticon-reading',
         text: 'K+',
     },
     {
         id: 3,
-        count: '15',
-        title: <>Award<br/> Wining</>,
+        count: '99',
+        title: <>Common<br/> Suggestion</>,
         icon: 'flaticon-badge',
-        text: '+',
+        text: ' %',
     }
 ];
 

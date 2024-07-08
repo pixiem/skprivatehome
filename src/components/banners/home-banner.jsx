@@ -7,7 +7,6 @@ import Image from "next/image";
 const HomeBanner = () => {
     return (
         <section className="bd-joining-area pt-100 pb-100">
-            <div className="bd-joining-bg" style={{ backgroundImage: `url(${joiningBg.src})`}}></div>
             <div className="bd-joining-bg-overlay"></div>
             <div className="container">
                 <div className="bd-joining">

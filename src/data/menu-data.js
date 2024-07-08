@@ -22,17 +22,18 @@ const menu_data = [
       {
         title: 'List 1', link: '#',
         submenus: [
-          {title:'Settling',link:'/program-details', count:'01', age:'4-5 Yrs'},
-          {title:'Nuesery Group',link:'/program-details', count:'02', age:'3-4 Yrs'},
-          {title:'Play Group',link:'/program-details', count:'03', age:'2-3 Yrs'},
+          {title:'First Semister',link:'/program-details', count:'01', age:'4-5 Yrs'},
+          {title:'Second Semister',link:'/program-details', count:'02', age:'3-4 Yrs'},
+          {title:'Third Semister',link:'/program-details', count:'03', age:'2-3 Yrs'},
         ]
       },
       {
         title: 'List 2', link: '#',
         submenus: [
-          {title:'Nuesery',link:'/program-details', count:'04', age:'3-4 Yrs'},
-          {title:'Junior Kg',link:'/program-details', count:'05', age:'4-5 Yrs'},
-          {title:'Senior Kg',link:'/program-details', count:'06', age:'5-6 Yrs'},
+          {title:'Fourth Semister',link:'/program-details', count:'04', age:'3-4 Yrs'},
+          {title:'Fifth Semiser',link:'/program-details', count:'05', age:'4-5 Yrs'},
+          {title:'Sixth Semister',link:'/program-details', count:'06', age:'5-6 Yrs'},
+          {title:'Seven Semister',link:'/program-details', count:'06', age:'5-6 Yrs'},
         ]
       },
       {

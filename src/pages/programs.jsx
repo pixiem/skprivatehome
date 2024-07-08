@@ -1,4 +1,4 @@
-import { Wrapper } from "@layout/index";
+import { Header, Wrapper } from "@layout/index";
 import SEO from "@components/seo";
 import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
@@ -13,7 +13,7 @@ export default function Programs() {
   return (
     <Wrapper>
       <SEO pageTitle={'Programs'} />
-      <HeaderFour />
+      <Header />
       <Breadcrumb title="Programs" subTitle="Programs" />
       <ProgramPageMain />
       <AboutTestimonial />

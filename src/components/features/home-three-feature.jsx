@@ -5,29 +5,29 @@ import shape from "@assets/img/shape/wave-section-break.png";
 const features = [
     {
         id: 1,
-        title: 'Exclusive',
-        teaser: 'When it comes to success in the classroom.',
+        title: 'Expert Instructors',
+        teaser: 'Our highly qualified instructors bring years of experience and a passion for teaching to ensure student success.',
         iconStyle: 'icon-1',
         icon: 'flaticon-exclusive',
     },
     {
         id: 2,
-        title: 'Highest Safety',
-        teaser: 'Safety matters just as much as the academics.',
+        title: 'Comprehensive Course Offerings',
+        teaser: 'We provide a wide range of courses tailored to prepare students for polytechnic entrance exams effectively.',
         iconStyle: 'icon-2',
         icon: 'flaticon-humanitarian-help',
     },
     {
         id: 3,
-        title: 'Hassle Free',
-        teaser: 'Consistent with Friend ship’s focus on kindedo.',
+        title: 'Personalized Learning Support',
+        teaser: 'With one-on-one tutoring and customized study plans, we cater to the unique learning needs of each student.',
         iconStyle: 'icon-3',
         icon: 'flaticon-like-1',
     },
     {
         id: 4,
-        title: 'Free Shipping',
-        teaser: 'Guided by teachers who are veste student success.',
+        title: 'Proven Track Record',
+        teaser: 'Our students consistently achieve top scores and gain admission to prestigious polytechnic institutions, demonstrating our commitment to excellence.',
         iconStyle: 'icon-4',
         icon: 'flaticon-delivery',
     }
@@ -46,8 +46,8 @@ const HomeThreeFeature = ({wave}) => {
                     <div className="col-lg-8 col-md-10">
                         <div className="bd-section-title-wrapper is-white text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                             data-wow-delay=".3s">
-                            <h2 className="bd-section-title mb-0">Why Kindedo Best</h2>
-                            <p>View classes by age, program, or subject. Check out upcoming camps<br /> and special events too!
+                            <h2 className="bd-section-title mb-0">Why SK Private Home Best</h2>
+                            <p>SK Private Home offers expert instruction, personalized learning support<br /> and a proven track record of student success!!
                             </p>
                         </div>
                     </div>

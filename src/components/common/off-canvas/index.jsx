@@ -31,10 +31,11 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
           
           
             <div className="offcanvas__about d-none d-lg-block mb-30">
-              <h4>SK Private Home</h4>
-              <p>SK Private Home is a Diploma in Engineering Coaching Center as known as Polytechnic Coaching Centre .We are First Polytechnic Coaching Centre in Chittagong, We Services Polytechnic Students last 7 Years & we will give more.</p>
+             
             </div>
             <div className="offcanvas__contact mb-30">
+               <h4>SK Private Home</h4>
+              <p>SK Private Home is a Diploma in Engineering Coaching Center as known as Polytechnic Coaching Centre .We are First Polytechnic Coaching Centre in Chittagong, We Services Polytechnic Students last 7 Years & we will give more.</p>
               <h4>Contact Info</h4>
               <ul>
                 <li className="d-flex align-items-center gap-2">

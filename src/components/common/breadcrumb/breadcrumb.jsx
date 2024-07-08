@@ -25,7 +25,7 @@ const Breadcrumb = ({title, subTitle}) => {
                                 <div className="bd-breadcrumb-content text-center">
                                     <h1 className="bd-breadcrumb-title">{title}</h1>
                                     <div className="bd-breadcrumb-list">
-                                        <span><Link href="/"><i className="flaticon-hut"></i>Kindedo</Link></span>
+                                        <span><Link href="/"><i className="flaticon-hut"></i>Home</Link></span>
                                         <span>{subTitle}</span>
                                     </div>
                                 </div>

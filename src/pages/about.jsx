@@ -1,4 +1,4 @@
-import { Wrapper } from "@layout/index";
+import { Header, Wrapper } from "@layout/index";
 import SEO from "@components/seo";
 import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
@@ -10,20 +10,20 @@ import AboutPromotion from "@components/promotions/about-promotion";
 import AboutTestimonial from "@components/testimonials/about-testimonial";
 import HomeTeacher from "@components/teachers/home-teacher";
 import AboutFact from "@components/facts/about-fact";
-import HeaderFour from "@layout/headers/headerFour";
+import HomeTestimonial from "@components/testimonials/home-testimonial";
 
 
 export default function About() {
   return (
     <Wrapper>
       <SEO pageTitle={'About'} />
-      <HeaderFour />
+      <Header />
       <Breadcrumb title="About" subTitle="About" />
       <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
       <HomeThreeFeature wave={true} />
       <AboutPromotion />
-      <AboutTestimonial />
-      <HomeTeacher />
+      <HomeTestimonial/>
+      {/* <HomeTeacher /> */}
       <AboutFact />
       <HomeNewsletter />
       <Footer/>

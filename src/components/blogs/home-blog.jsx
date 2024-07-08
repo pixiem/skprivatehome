@@ -15,7 +15,7 @@ const HomeBlog = ({blog_wrap, blog_date, blog_dot}) => {
                         <div className="col-lg-6">
                             <div className="bd-section-title-wrapper mb-0 wow fadeInLeft" data-wow-duration="1s"
                                 data-wow-delay=".3s">
-                                <h2 className="bd-section-title mb-0">Kindedo News</h2>
+                                <h2 className="bd-section-title mb-0">SK Private Home Blogs</h2>
                                 <p>It is our goal to provide age appropriate opportuniy for every child enrolled in Kindedo Kids
                                     Club
                                     enrichment classes.</p>

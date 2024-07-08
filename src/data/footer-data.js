@@ -41,18 +41,8 @@ const footer_data = {
                 path: '/programs',
             },
             {
-                id: 3,
-                menu: 'Shop',
-                path: '/shop',
-            },
-            {
-                id: 4,
-                menu: 'Classes',
-                path: '/classes',
-            },
-            {
                 id: 5,
-                menu: 'News',
+                menu: 'Blog',
                 path: '/news',
             },
             {
@@ -68,34 +58,39 @@ const footer_data = {
         programs: [
             {
                 id: 1,
-                menu: 'Play School',
+                menu: 'First Semister',
                 path: '/programs',
             },
             {
                 id: 2,
-                menu: 'Nursery',
+                menu: 'Second Semister',
                 path: '/programs',
             },
             {
                 id: 3,
-                menu: 'Junior Kg',
+                menu: 'Third Semister',
                 path: '/programs',
             },
             {
                 id: 4,
-                menu: 'Senior Kg',
+                menu: 'Fourth Semister',
                 path: '/programs',
             },
             {
                 id: 5,
-                menu: 'Holiday Camp',
+                menu: 'Fifth Semister',
                 path: '/programs',
             },
             {
                 id: 6,
-                menu: 'Day Care',
+                menu: 'Sixth Semister',
                 path: '/programs',
-            }
+            },
+            {
+                id: 7,
+                menu: 'Seven Semister',
+                path: '/programs',
+            },
         ]
     },
     "customer_services": {

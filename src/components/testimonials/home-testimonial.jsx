@@ -14,8 +14,8 @@ import img3 from "@assets/img/testimonials/2.png";
 const testimonial_data = [
     {
         id: 1,
-        review: 'Happy Christmas to the whole Kindedo from everyone at Monkton. A big thank you to Kindedo pupil Will who lent his Kindedo to this card.',
-        author: 'Norma J. Johnston',
+        review: "SK Private Home has transformed my child's academic journey. The instructors are knowledgeable and truly care about each student's success.",
+        author: 'MD Nayem Hossain',
         authorImg: img1,
         ratings: [
             { id: 1, icon: 'fas fa-star' },
@@ -27,8 +27,8 @@ const testimonial_data = [
     },
     {
         id: 2,
-        review: 'Your child will laugh, play and explore at Summer at MLS. From soccer, water play, art, music, theater and science, Shabbat celebrations, cooking.',
-        author: 'Mateo D. Daniel',
+        review: 'The personalized attention and tailored study plans at SK Private Home helped me excel in my polytechnic entrance exams. I highly recommend it!',
+        author: 'Farid Uddin Khan',
         authorImg: img2,
         ratings: [
             { id: 1, icon: 'fas fa-star' },
@@ -40,15 +40,15 @@ const testimonial_data = [
     },
     {
         id: 3,
-        review: 'The unique Mentone Grammar Community is our point of difference compared to many in the industry. The School often talks about the concept.',
-        author: 'Michael M. Mason',
+        review: 'Thanks to the supportive and friendly environment at SK Private Home, my daughter gained confidence and achieved top scores in her exams',
+        author: 'Rabeya Begum',
         authorImg: img3,
         ratings: [
             { id: 1, icon: 'fas fa-star' },
             { id: 2, icon: 'fas fa-star' },
             { id: 3, icon: 'fas fa-star' },
             { id: 4, icon: 'fas fa-star' },
-            { id: 5, icon: 'far fa-star' }
+            
         ]
     }
 ]
@@ -58,15 +58,10 @@ const HomeTestimonial = () => {
     return (
         <>
             <section className="bd-testimonial-area theme-bg">
-                <div className="bd-testimonial-video" style={{ backgroundImage: `url(${bg.src})`}}>
-                    <div className="bd-testimonial-video-btn bd-pulse-btn">
-                        <button type='button' className="popup-video" onClick={() => setIsVideoOpen(true)}><i className="flaticon-play-button"></i></button>
-                    </div>
-                </div>
-                <div className="bd-testimonial-bg d-none d-lg-block" style={{ backgroundImage: `url(${shape.src})`}}></div>
+               
                 <div className="container">
                     <div className="row justify-content-end align-items-center">
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                             <div className="bd-testimonial-wrapper pt-120 pb-120">
                                 <div className="bd-section-title-wrapper is-white mb-20 wow fadeInUp" data-wow-duration="1s"
                                     data-wow-delay=".3s">
@@ -110,9 +105,7 @@ const HomeTestimonial = () => {
                                                                 <p>{item.review}</p>
                                                             </div>
                                                             <div className="bd-testimonial-avatar d-flex align-items-center">
-                                                                <div className="bd-testimonial-avatar-thumb">
-                                                                    <Image src={item.authorImg} style={{ width: "100%", height: "100%" }} alt="img not found" />
-                                                                </div>
+                                                               
                                                                 <h6 className="bd-testimonial-avatar-title mb-0">{item.author}</h6>
                                                                 <div className="bd-testimonial-quote">
                                                                     <i className="flaticon-quote"></i>

@@ -11,9 +11,9 @@ const AboutPromotion = () => {
                     <div className="col-xl-6 col-lg-6">
                         <div className="bd-promotion bd-promotion-2 mb-60 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                             <div className="bd-section-title-wrapper mb-35">
-                                <h2 className="bd-section-title mb-10">Friendly atmosphere for all kids</h2>
-                                <span className="mb-10 d-inline-block">A Swiss follower of Jean-Jacques Rousseau’s belief in the inherent goodness of children helper.</span>
-                                <p>The kindergarten was developed in the nineteenth century by Friedrich Froebel, a German reformer and educator. He built upon the ideas of Johann Heinrich Pestalozzi.</p>
+                                <h2 className="bd-section-title mb-10">Friendly atmosphere for all Student</h2>
+                                <span className="mb-10 d-inline-block">At SK Private Home, we foster a friendly and inclusive atmosphere where every student feels welcome and supported.</span>
+                                <p>Our nurturing environment encourages students to thrive academically and build lasting friendships.</p>
                             </div>
                             <div className="bd-promotion-list-2">
                                 <ul>
@@ -21,13 +21,13 @@ const AboutPromotion = () => {
                                         <div className="bd-promotion-icon">
                                             <i className="flaticon-exclusive theme-bg-2"></i>
                                         </div>
-                                        <span>Full Day Sessions</span>
+                                        <span>Innovative Teaching Methods</span>
                                     </li>
                                     <li>
                                         <div className="bd-promotion-icon">
                                             <i className="flaticon-whiteboard theme-bg"></i>
                                         </div>
-                                        <span>Varied Classes</span>
+                                        <span>Structured Study Plans</span>
                                     </li>
                                 </ul>
                             </div>

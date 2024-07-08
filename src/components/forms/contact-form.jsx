@@ -70,8 +70,11 @@ const ContactForm = () => {
           <div className="bd-contact-input custom-select-icon mb-30">
             <select name="subject" id="subject" className="bd-nice-select">
               <option>Select Subject</option>
-              <option>Junior KG</option>
-              <option>Senior KG</option>
+              <option>First Semister</option>
+              <option>Second Semister</option>
+              <option>Second Semister</option>
+              <option>Second Semister</option>
+              <option>Second Semister</option>
             </select>
             <i className="far fa-chevron-down"></i>
           </div>

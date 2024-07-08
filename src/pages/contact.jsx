@@ -1,4 +1,4 @@
-import { Wrapper } from "@layout/index";
+import { Header, Wrapper } from "@layout/index";
 import SEO from "@components/seo";
 import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <Wrapper>
       <SEO pageTitle={'Contact'} />
-      <HeaderFour />
+      <Header />
       <Breadcrumb title="Contact Us" subTitle="Contact Us" />
       <ContactInfo />
       <ContactFormMain />

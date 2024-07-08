@@ -24,7 +24,7 @@ const ContactInfo = () => {
                                     <div className="bd-contact-info-icon cat-2">
                                         <a href="#"><i className="flaticon-location-pin"></i></a>
                                     </div>
-                                    <h6><a href="#">14/A, Kilix Home Tower</a></h6>
+                                    <h6><a href="#">Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ const ContactInfo = () => {
                                     <div className="bd-contact-info-icon cat-3">
                                         <a href="mailto:support@kindedo.com"><i className="flaticon-email"></i></a>
                                     </div>
-                                    <h6><a href="mailto:support@kindedo.com">support@kindedo.com</a></h6>
+                                    <h6><a href="mailto:support@kindedo.com">skprivatehome@gmail.com</a></h6>
                                 </div>
                             </div>
                         </div>

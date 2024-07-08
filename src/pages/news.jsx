@@ -1,4 +1,4 @@
-import { Wrapper } from "@layout/index";
+import { Header, Wrapper } from "@layout/index";
 import SEO from "@components/seo";
 import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
@@ -11,7 +11,7 @@ export default function NewsSidebar() {
   return (
     <Wrapper>
       <SEO pageTitle={'News'} />
-      <HeaderFour />
+      <Header />
       <Breadcrumb title="News" subTitle="News" />
       <NewsPageMain />
       <HomeNewsletter />
