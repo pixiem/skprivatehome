@@ -4,7 +4,7 @@ import SEO from '@components/seo';
 import program_data from '@data/program-data';
 import Footer from '@layout/footers/footer';
 import HeaderFour from '@layout/headers/headerFour';
-import { Wrapper } from '@layout/index';
+import { Header, Wrapper } from '@layout/index';
 import React from 'react';
 
 export default function ProgramDetails() {
@@ -12,7 +12,7 @@ export default function ProgramDetails() {
     return (
         <Wrapper>
             <SEO pageTitle={'Program Details'} />
-            <HeaderFour />
+            <Header />
             <ProgramDetailsArea item={item} />
             <HomeNewsletter />
             <Footer />

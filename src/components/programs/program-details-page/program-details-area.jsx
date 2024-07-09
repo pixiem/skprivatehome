@@ -6,12 +6,11 @@ import program_3 from "@assets/img/program/home-program-3.jpg";
 import { Scrollbar, A11y, Autoplay, EffectFade, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
-import ProgramCat from './program-cat';
 import ClassDetailsWidget from '@components/classes/class-details-page/class-details-widget';
 import ClassDetailsWidgetTwo from '@components/classes/class-details-page/class-details-widget-two';
 import HomeBanner from '@components/banners/home-banner';
-import LearningSchedule from './learning-schedule';
 import MoreProgrammers from '@components/classes/class-details-page/more-programmers';
+import AboutFact from '@components/facts/about-fact';
 
 const ProgramDetailsArea = ({item}) => {
     return (
@@ -82,29 +81,17 @@ const ProgramDetailsArea = ({item}) => {
                                 data-wow-delay=".3s">
                                 <h3 className="bd-program-details-widget-title mb-20">{item.title}</h3>
                                 <p className="mb-25">
-                                    The foundation of the Montessori philosophy is based upon the idea that children should work at
-                                    their own pace, according to their own strengths in surroundings that help to develop their
-                                    intelligence, as well as social and physical abilities. </p>
-                                <p className="mb-25">Observers of Montessori children note that they are confident, caring, independent
-                                    as well as enthusiastic and motivated learners what they learn years comes
-                                    from perceptive. </p>
+                                    {item.largedescription} </p>
+                                <p className="mb-25">{item.largedescription2} </p>
                                 <div className="bd-program-details-author-wrapper mt-35">
-                                    <div className="bd-program-details-author">
-                                        <div className="bd-program-details-author-thumb">
-                                            {item.authorImg && <Image src={item.authorImg} style={{ width: "100%", height: "100%" }} alt="img not found" />}
-                                        </div>
-                                        <div className="bd-program-details-author-name">
-                                            <span>Settling Teacher</span>
-                                            <h5>{item.authorName}</h5>
-                                        </div>
-                                    </div>
+                                  
                                     <div className="bd-program-details-cat">
                                         <span>Categories</span>
-                                        <h5>{item.title}</h5>
+                                        <h5>Diploma</h5>
                                     </div>
                                     <div className="bd-program-details-cat">
                                         <span>Per/Month</span>
-                                        <h5>${item.price}</h5>
+                                        <h5>BDT 1500</h5>
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +100,8 @@ const ProgramDetailsArea = ({item}) => {
                 </div>
             </section>
 
-            <ProgramCat />
+            <AboutFact />
             <ClassDetailsWidget />
-            <LearningSchedule />
             <ClassDetailsWidgetTwo />
             <HomeBanner />
             <MoreProgrammers />

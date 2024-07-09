@@ -8,7 +8,7 @@ import line_2 from "@assets/img/shape/curved-line-2.png";
 const Breadcrumb = ({title, subTitle}) => {
     return (
         <section className="bd-breadcrumb-area p-relative fix theme-bg">
-            <div className="bd-breadcrumb-bg" style={{ backgroundImage: `url(${bg.src})` }}></div>
+            {/* <div className="bd-breadcrumb-bg" style={{ backgroundImage: `url(${bg.src})` }}></div> */}
             <div className="bd-breadcrumb-wrapper mb-60 p-relative">
                 <div className="container">
                     <div className="bd-breadcrumb-shape d-none d-sm-block p-relative">

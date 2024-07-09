@@ -4,9 +4,9 @@ import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
 import Breadcrumb from "@components/common/breadcrumb/breadcrumb";
 import ProgramPageMain from "@components/programs/program-page-main";
-import AboutTestimonial from "@components/testimonials/about-testimonial";
-import ProgramPromotion from "@components/promotions/program-promotion";
-import HeaderFour from "@layout/headers/headerFour";
+import HomeClass from "@components/classes/home-class";
+import AboutPromotion from "@components/promotions/about-promotion";
+import HomeTestimonial from "@components/testimonials/home-testimonial";
 
 
 export default function Programs() {
@@ -15,9 +15,10 @@ export default function Programs() {
       <SEO pageTitle={'Programs'} />
       <Header />
       <Breadcrumb title="Programs" subTitle="Programs" />
+      <HomeClass/>
       <ProgramPageMain />
-      <AboutTestimonial />
-      <ProgramPromotion />
+      <HomeTestimonial/>
+      <AboutPromotion />
       <HomeNewsletter />
       <Footer/>
     </Wrapper>

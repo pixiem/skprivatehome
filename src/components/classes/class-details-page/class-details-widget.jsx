@@ -13,21 +13,9 @@ const ClassDetailsWidget = () => {
                         <div className="bd-program-details-widget-content theme-bg-6 wow fadeInLeft" data-wow-duration="1s"
                             data-wow-delay=".3s">
                             <h3 className="bd-program-details-widget-title mb-20">Way to Learn</h3>
-                            <p className="mb-25">As a result, the child should have a reasonable amount of freedom to do as they
-                                please, while at the same time being wholly immersed in an environment which stimulates their
-                                senses as well as exercising their creativity. Literally their classroom is their world,
-                                providing exposure to materials and experiences that foster greater intellectual growth. You
-                                will love it.</p>
-                            <p className="mb-25">Please take a moment to read this website, and I’m sure that you will come to
-                                agree that there would be better place. </p>
-                            <div className="bd-program-details-btn">
-                                <Link href="/about" className="bd-btn">
-                                    <span className="bd-btn-inner">
-                                        <span className="bd-btn-normal">Know More</span>
-                                        <span className="bd-btn-hover">Know More</span>
-                                    </span>
-                                </Link>
-                            </div>
+                            <p className="mb-25">SK Private Home Diploma Coaching Center offers a comprehensive seven-semester program designed for progressive learning and professional readiness. Beginning with foundational courses in the first semester, students build essential skills and a strong academic base. Subsequent semesters deepen understanding through practical applications, advanced topics, and specialized studies tailored to industry needs. Hands-on training, internships, and mentorship in later semesters prepare students for real-world challenges and professional success, culminating in capstone projects and career-focused workshops in the final semester. This structured approach ensures graduates are well-equipped with both knowledge and practical skills for their chosen careers.</p>
+                           
+                           
                         </div>
                     </div>
                     <div className="col-lg-6 mb-50">
