@@ -22,18 +22,18 @@ const menu_data = [
       {
         title: 'List 1', link: '#',
         submenus: [
-          {title:'First Semister',link:'/program-details', count:'01', age:'4-5 Yrs'},
-          {title:'Second Semister',link:'/program-details', count:'02', age:'3-4 Yrs'},
-          {title:'Third Semister',link:'/program-details', count:'03', age:'2-3 Yrs'},
+          {title:'First Semister',link:'/program-details/1', count:'01', age:'Diploma'},
+          {title:'Second Semister',link:'/program-details/2', count:'02', age:'Diploma'},
+          {title:'Third Semister',link:'/program-details/3', count:'03', age:'Diploma'},
         ]
       },
       {
         title: 'List 2', link: '#',
         submenus: [
-          {title:'Fourth Semister',link:'/program-details', count:'04', age:'3-4 Yrs'},
-          {title:'Fifth Semiser',link:'/program-details', count:'05', age:'4-5 Yrs'},
-          {title:'Sixth Semister',link:'/program-details', count:'06', age:'5-6 Yrs'},
-          {title:'Seven Semister',link:'/program-details', count:'06', age:'5-6 Yrs'},
+          {title:'Fourth Semister',link:'/program-details/4', count:'04', age:'Diploma'},
+          {title:'Fifth Semiser',link:'/program-details/5', count:'05', age:'Diploma'},
+          {title:'Sixth Semister',link:'/program-details/6', count:'06', age:'Diploma'},
+          {title:'Seven Semister',link:'/program-details/7', count:'07', age:'Diploma'},
         ]
       },
       {
@@ -45,47 +45,14 @@ const menu_data = [
     ]
   },
   {
-    id: 5,
-    title: 'Pages',
-    megaMenu: true,
-    link: '#',
-    pages:true,
-    mega_menus: [
-      {
-        title: 'Page Layout 1', link: '#',
-        submenus: [
-          {title:'Program',link:'/programs'},
-          {title:'Program Details',link:'/program-details'},
-          {title:'Teacher',link:'/teachers'},
-          {title:'Teacher Details',link:'/teacher-details'},
-          {title:'Time Table',link:'/time-tables'},
-        ]
-      },
-      {
-        title: 'Page Layout 2', link: '#',
-        submenus: [
-          {title:'Testimonial',link:'/testimonials'},
-          {title:'Gallery',link:'/gallery'},
-          {title:'FAQ',link:'/faq'},
-          {title:'Class',link:'/classes'},
-          {title:'Class Details',link:'/class-details'},
-        ]
-      },
-      {
-        title: 'Page Layout 3', link: '#',
-        submenus: [
-          {title:'About',link:'/about'},
-          {title:'Contact',link:'/contact'},
-          {title:'Login',link:'/login'},
-          {title:'Register',link:'/register'},
-          {title:'Error Page',link:'/404'},
-        ]
-      }
-    ]
+    id:5,
+    hasDropdown: false,
+    title: 'Gallery',
+    link: '/gallery',
   },
   {
     id:6,
-    hasDropdown: true,
+    hasDropdown: false,
     title: 'News',
     link: '/news',
     submenus: [

@@ -1,4 +1,4 @@
-import { Wrapper } from "@layout/index";
+import { Header, Wrapper } from "@layout/index";
 import SEO from "@components/seo";
 import Footer from "@layout/footers/footer";
 import HomeNewsletter from "@components/newsletter/home-newsletter";
@@ -11,7 +11,7 @@ export default function Gallery() {
   return (
     <Wrapper>
       <SEO pageTitle={'Gallery'} />
-      <HeaderFour />
+      <Header />
       <Breadcrumb title="Gallery" subTitle="Gallery" />
       <GallaryPageMain />
       <HomeNewsletter />

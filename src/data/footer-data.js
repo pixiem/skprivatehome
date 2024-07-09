@@ -59,37 +59,37 @@ const footer_data = {
             {
                 id: 1,
                 menu: 'First Semister',
-                path: '/programs',
+                path: '/program-details/1',
             },
             {
                 id: 2,
                 menu: 'Second Semister',
-                path: '/programs',
+                path: '/program-details/2',
             },
             {
                 id: 3,
                 menu: 'Third Semister',
-                path: '/programs',
+                path: '/program-details/3',
             },
             {
                 id: 4,
                 menu: 'Fourth Semister',
-                path: '/programs',
+                path: '/program-details/4',
             },
             {
                 id: 5,
                 menu: 'Fifth Semister',
-                path: '/programs',
+                path: '/program-details/5',
             },
             {
                 id: 6,
                 menu: 'Sixth Semister',
-                path: '/programs',
+                path: '/program-details/6',
             },
             {
                 id: 7,
                 menu: 'Seven Semister',
-                path: '/programs',
+                path: '/program-details/7',
             },
         ]
     },

@@ -59,12 +59,7 @@ const HomePromotion = ({promoImg, promo_space}) => {
                             <div className="bd-promotion mb-60 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                                 <div className="bd-section-title-wrapper mb-35">
                                     <h2 className="bd-section-title mb-10">Best Coaching for Diploma Students</h2>
-                                    {promo_space &&
-                                        <span>
-                                            Some states and countries implement mandatory early childhood education
-                                            such rules, many preschool.
-                                        </span>
-                                    }
+                                  
                                     <p> SK Private Home is a Diploma in Engineering Coaching Center as known as Polytechnic Coaching Centre .We are First Polytechnic Coaching Centre in Chittagong, We Services Polytechnic Students last 7 Years & we will give more.
                                     </p>
                                 </div>
