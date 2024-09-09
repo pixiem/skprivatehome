@@ -15,8 +15,8 @@ const MoreProgrammers = () => {
                         <div className="bd-section-title-wrapper text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                             data-wow-delay=".2s">
                             <h2 className="bd-section-title mb-0">More Programs</h2>
-                            <p>Kindedo opened its doors in 1984 with a unique vision to provide its students<br /> with a
-                                globally focused study of arts.</p>
+                            {/* <p>Kindedo opened its doors in 1984 with a unique vision to provide its students<br /> with a
+                                globally focused study of arts.</p> */}
                         </div>
                     </div>
                 </div>

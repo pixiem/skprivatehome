@@ -3,7 +3,8 @@ import program_2 from '@assets/img/program/home-program-2.jpg';
 import program_3 from '@assets/img/program/home-program-3.jpg';
 import program_4 from '@assets/img/program/home-program-4.jpg';
 import program_5 from '@assets/img/program/home-program-5.jpg';
-import program_6 from '@assets/img/program/home-program-1.jpg';
+import program_6 from '@assets/img/program/home-program-6.jpg';
+import program_7 from '@assets/img/program/home-program-7.jpg';
 import ProgramIconOne from '@svg/program-icon-1';
 import ProgramIconTwo from '@svg/program-icon-2';
 import ProgramIconThree from '@svg/program-icon-3';
@@ -29,18 +30,18 @@ const program_data = [
     delay:'.2s',
     programs:[
       {
-        id: 1,
-        title: '6-7 Yrs',
-        subTitle: 'age',
+        id: 2,
+        title: '1,2',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,
-        title: '3.30 Hrs',
+        title: '2 Hrs',
         subTitle: 'period',
       }
     ]
@@ -60,18 +61,18 @@ const program_data = [
     price: 195.00,
     programs:[
       {
-        id: 1,
-        title: '3-4 Yrs',
-        subTitle: 'age',
+        id: 2,
+        title: '1,2',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,
-        title: '3.30 Hrs',
+        title: '2 Hrs',
         subTitle: 'period',
       }
     ]
@@ -91,18 +92,18 @@ const program_data = [
     price: 285.00,
     programs:[
       {
-        id: 1,
-        title: '3-4 Yrs',
-        subTitle: 'age',
+        id: 2,
+        title: '1,2',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,
-        title: '3.30 Hrs',
+        title: '2 Hrs',
         subTitle: 'period',
       }
     ]
@@ -122,18 +123,18 @@ const program_data = [
     price: 140.00,
     programs:[
       {
-        id: 1,
-        title: '3-4 Yrs',
-        subTitle: 'age',
+        id: 2,
+        title: '1,2',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,
-        title: '4.30 Hrs',
+        title: '2 Hrs',
         subTitle: 'period',
       }
     ]
@@ -153,18 +154,18 @@ const program_data = [
     price: 150.00,
     programs:[
       {
-        id: 1,
-        title: '4-5 Yrs',
-        subTitle: 'age',
+        id: 2,
+        title: '1,2',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,
-        title: '5.30 Hrs',
+        title: '2 Hrs',
         subTitle: 'period',
       }
     ]
@@ -184,18 +185,18 @@ const program_data = [
     price: 170.00,
     programs:[
       {
-        id: 1,
-        title: '5-6 Yrs',
-        subTitle: 'age',
+        id: 2,
+        title: '1,2',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '5 Days',
-        subTitle: 'weekly',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,
-        title: '6.30 Hrs',
+        title: '2 Hrs',
         subTitle: 'period',
       }
     ]
@@ -203,7 +204,7 @@ const program_data = [
   {
     id:7,
     title:'Seven Semister',
-    img:program_6,
+    img:program_7,
     description:'Complete your diploma with capstone projects and professional preparation.',
     largedescription:"Complete your diploma with capstone projects and professional preparation, integrating all the knowledge and skills acquired throughout your studies to demonstrate your readiness for the professional world.",
     largedescription2:"Work on a final thesis or capstone project that showcases your comprehensive understanding of the subject matter, participate in career workshops, and prepare for job interviews and professional certifications to smoothly transition into your career.",

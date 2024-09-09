@@ -102,7 +102,7 @@ const ProgramDetailsArea = ({item}) => {
 
             <AboutFact />
             <ClassDetailsWidget />
-            <ClassDetailsWidgetTwo />
+            {/* <ClassDetailsWidgetTwo /> */}
             <HomeBanner />
             <MoreProgrammers />
         </>

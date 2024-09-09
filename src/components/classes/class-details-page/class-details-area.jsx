@@ -33,11 +33,11 @@ const ClassDetailsArea = ({ item }) => {
                                 <div className="bd-class-details-author-wrapper mt-35">
                                     <div className="bd-class-details-cat">
                                         <span>Categories</span>
-                                        <h5>Kindergarten</h5>
+                                        <h5>Diploma</h5>
                                     </div>
                                     <div className="bd-class-details-cat">
                                         <span>Per/Month</span>
-                                        <h5>${item?.price}</h5>
+                                        <h5>{item?.price}</h5>
                                     </div>
                                 </div>
                             </div>
