@@ -31,7 +31,7 @@ const program_data = [
     programs:[
       {
         id: 2,
-        title: '1,2',
+        title: '1st & 2nd',
         subTitle: 'Shift',
       },
       {
@@ -62,7 +62,7 @@ const program_data = [
     programs:[
       {
         id: 2,
-        title: '1,2',
+        title: '1st & 2nd',
         subTitle: 'Shift',
       },
       {
@@ -93,7 +93,7 @@ const program_data = [
     programs:[
       {
         id: 2,
-        title: '1,2',
+        title: '1st & 2nd',
         subTitle: 'Shift',
       },
       {
@@ -124,7 +124,7 @@ const program_data = [
     programs:[
       {
         id: 2,
-        title: '1,2',
+        title: '1st & 2nd',
         subTitle: 'Shift',
       },
       {
@@ -155,7 +155,7 @@ const program_data = [
     programs:[
       {
         id: 2,
-        title: '1,2',
+        title: '1st & 2nd',
         subTitle: 'Shift',
       },
       {
@@ -186,7 +186,7 @@ const program_data = [
     programs:[
       {
         id: 2,
-        title: '1,2',
+        title: '1st & 2nd',
         subTitle: 'Shift',
       },
       {
@@ -216,14 +216,14 @@ const program_data = [
     price: 170.00,
     programs:[
       {
-        id: 1,
-        title: '6 Hours',
-        subTitle: 'Per Days',
+        id: 2,
+        title: '1st & 2nd',
+        subTitle: 'Shift',
       },
       {
-        id: 2,
-        title: '1-2',
-        subTitle: 'Shift',
+        id: 1,
+        title: '6 Days',
+        subTitle: 'Weekly',
       },
       {
         id: 3,

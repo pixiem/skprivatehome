@@ -36,17 +36,13 @@ const MobileMenus = () => {
                     display: navTitle === menu.title ? "block" : "none",
                   }}
                 >
-                 
+                  {/* {menu.submenus.map((sub) => (
+                    <li key={"i"}>
+                      <Link href={sub.link}>{sub.title}</Link>
+                    </li>
+                  ))} */}
                 </ul>
-                <a
-                  className={`mean-expand ${
-                    navTitle === menu.title ? "mean-clicked" : ""
-                  }`}
-                  onClick={() => openMobileMenu(menu.title)}
-                  style={{ fontSize: "18px",cursor:'pointer' }}
-                >
-                  <i className="fal fa-plus"></i>
-                </a>
+             
               </li>
             )}
 

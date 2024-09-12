@@ -26,7 +26,8 @@ export default function Home() {
       <HomeBanner/>
       {/* <HomeTeacher/> */}
       <HomeTestimonial/>
-      <HomeBlog/>
+      <br />
+      {/* <HomeBlog/> */}
       <HomeNewsletter/>
       <Footer/>
     </Wrapper>

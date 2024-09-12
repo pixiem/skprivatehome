@@ -42,8 +42,8 @@ const footer_data = {
             },
             {
                 id: 5,
-                menu: 'Blog',
-                path: '/news',
+                menu: 'Gallery',
+                path: '/gallery',
             },
             {
                 id: 6,

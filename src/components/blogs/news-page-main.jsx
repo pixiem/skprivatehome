@@ -34,10 +34,10 @@ const NewsPageMain = ({ blog_wrap, blog_date }) => {
                                         <nav>
                                             <div className="nav" id="nav-tab" role="tablist">
                                                 <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
-                                                <button className="nav-link" id="nav-kinder-tab" data-bs-toggle="tab" data-bs-target="#nav-kinder" type="button" role="tab" aria-controls="nav-kinder" aria-selected="true">Kindergarten</button>
+                                                {/* <button className="nav-link" id="nav-kinder-tab" data-bs-toggle="tab" data-bs-target="#nav-kinder" type="button" role="tab" aria-controls="nav-kinder" aria-selected="true">Kindergarten</button>
                                                 <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Daycare</button>
                                                 <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Preschool</button>
-                                                <button className="nav-link" id="nav-sale-tab" data-bs-toggle="tab" data-bs-target="#nav-sale" type="button" role="tab" aria-controls="nav-sale" aria-selected="false">Children</button>
+                                                <button className="nav-link" id="nav-sale-tab" data-bs-toggle="tab" data-bs-target="#nav-sale" type="button" role="tab" aria-controls="nav-sale" aria-selected="false">Children</button> */}
                                             </div>
                                         </nav>
                                     </div>
@@ -46,7 +46,7 @@ const NewsPageMain = ({ blog_wrap, blog_date }) => {
                         </div>
                     </div>
                 </div>
-                <div className="tab-content" id="nav-tabContent">
+                {/* <div className="tab-content" id="nav-tabContent">
                     <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabIndex="0">
                         <div className="row grid">
                             {blog_data.slice(0, 9).map((item) => (
@@ -180,9 +180,9 @@ const NewsPageMain = ({ blog_wrap, blog_date }) => {
                             ))}
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <Pagination_Data />
+                {/* <Pagination_Data /> */}
             </div>
         </section>
     );

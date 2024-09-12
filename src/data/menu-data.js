@@ -1,20 +1,21 @@
 const menu_data = [
   {
     id: 1,
-    hasDropdown: false,
+    hasDropdown: true,
     title: 'Home',
     link: '/',
    
   },
   {
     id:2,
-    hasDropdown: false,
+    hasDropdown: true,
     title: 'About',
     link: '/about',
   },
   {
     id: 3,
     title: 'Programs',
+    hasDropdown: true,
     megaMenuTwo: true,
     megaMenu: false,
     link: '/programs',
@@ -46,13 +47,13 @@ const menu_data = [
   },
   {
     id:5,
-    hasDropdown: false,
+    hasDropdown: true,
     title: 'Gallery',
     link: '/gallery',
   },
   {
     id:6,
-    hasDropdown: false,
+    hasDropdown: true,
     title: 'News',
     link: '/news',
     submenus: [
@@ -64,7 +65,7 @@ const menu_data = [
   },
   {
     id:7,
-    hasDropdown: false,
+    hasDropdown: true,
     title: 'Contact',
     link: '/contact',
   },
