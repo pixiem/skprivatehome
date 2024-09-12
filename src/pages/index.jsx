@@ -23,7 +23,7 @@ export default function Home() {
       <HomePromotion/>
       <HomeProgram/>
       <HomeAbout/>
-      <HomeBanner/>
+      {/* <HomeBanner/> */}
       {/* <HomeTeacher/> */}
       <HomeTestimonial/>
       <br />

@@ -7,6 +7,7 @@ import ProgramPromotion from "@components/promotions/program-promotion";
 import ClassPageMain from "@components/classes/class-page-main";
 import AboutTestimonial from "@components/testimonials/about-testimonial";
 import HeaderFour from "@layout/headers/headerFour";
+import HomeClass from "@components/classes/home-class";
 
 
 export default function Classes() {
@@ -15,7 +16,7 @@ export default function Classes() {
       <SEO pageTitle={'Classes'} />
       <HeaderFour />
       <Breadcrumb title="Classes" subTitle="Classes" />
-      <ClassPageMain />
+      <HomeClass/>
       <AboutTestimonial />
       <ProgramPromotion />
       <HomeNewsletter />
