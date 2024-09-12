@@ -22,7 +22,7 @@ const TopbarOne = () => {
                                             <i className="fas fa-clock"></i>
                                         </div>
                                         <div className="bd-header-meta-text">
-                                            <p>9.00am-6.00pm</p>
+                                            <p>9.00am-5.00pm</p>
                                         </div>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@ const TopbarOne = () => {
                                             <i className="fas fa-map-marker-alt"></i>
                                         </div>
                                         <div className="bd-header-meta-text">
-                                            <p><a href="#">Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a></p>
+                                            <p><a target='_blank' href="https://maps.app.goo.gl/7mHJDiGXEYbkphf29">Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a></p>
                                         </div>
                                     </div>
                                 </div>

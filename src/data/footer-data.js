@@ -131,7 +131,7 @@ const footer_data = {
             {
                 id: 1,
                 icon: 'fa-light fa-location-dot',
-                url: '#',
+                url: 'https://maps.app.goo.gl/7mHJDiGXEYbkphf29',
                 title: 'Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong',
             },
             {

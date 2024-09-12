@@ -49,12 +49,12 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                 <li className="d-flex align-items-center gap-2">
                   <div className="offcanvas__contact-icon">
                     <a target="_blank" rel="noreferrer"
-                      href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">
+                      href="https://maps.app.goo.gl/7mHJDiGXEYbkphf29">
                       <i className="fal fa-map-marker-alt"></i></a>
                   </div>
                   <div className="offcanvas__contact-text">
                     <a target="_blank" rel="noreferrer"
-                      href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">                    
+                      href="https://maps.app.goo.gl/7mHJDiGXEYbkphf29">                    
 Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a>
                   </div>
                 </li>
