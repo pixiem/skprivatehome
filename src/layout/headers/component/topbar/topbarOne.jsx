@@ -34,7 +34,7 @@ const TopbarOne = () => {
                                             <i className="fas fa-map-marker-alt"></i>
                                         </div>
                                         <div className="bd-header-meta-text">
-                                            <p><a target='_blank' href="https://maps.app.goo.gl/7mHJDiGXEYbkphf29">Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a></p>
+                                            <p><a  href="https://maps.app.goo.gl/7mHJDiGXEYbkphf29">Near Polytechnic Institute, Hazi Abdul Hannan Sarak, Khulshi Green Housing Society, Khulshi Colony, Chaittagong</a></p>
                                         </div>
                                     </div>
                                 </div>
