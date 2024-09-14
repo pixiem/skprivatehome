@@ -53,13 +53,13 @@ const HomeHero = () => {
                             <div id="scene">
                                 <div className="bd-hero-thumb-3-wrapper p-relative z-index-1" data-depth=".4">
                                     <div className="bd-hero-thumb-3 p-relative">
-                                        <div className="bd-hero-thumb-3-mask">
-                                            <Image
-                                                src={heroImg}
-                                                style={{ width: "auto", height: "100%" }}
-                                                alt="img not found"
-                                            />
-                                        </div>
+                                    <div className="bd-gallery-thumb">
+                                <Image
+                                  src={heroImg}
+                                  style={{ width: "100%", height: "100%" }}
+                                  alt="img not found"
+                                />
+                              </div>
                                     </div>
                                     <div className="bd-hero-thumb-3-shape d-none d-md-block">
                                         <div className="bd-hero-thumb-3-shape-1 p-absolute">
